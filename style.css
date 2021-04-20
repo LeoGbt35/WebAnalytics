@@ -1,0 +1,198 @@
+/*---------------  Polices  ---------------*/
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('fonts/Anton-Regular.woff2') format('woff2'),
+        url('fonts/Anton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat-Regular', sans-serif;
+    background-color: #EAE4DF;
+    color: white;
+    align-items: center;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+/*--------------- BALISES GENERALES ---------------*/
+
+header,
+footer {
+    background-color: #272626;
+}
+
+header,
+article,
+top,
+.carousel {
+    padding: 0 !important;
+}
+
+h2 {
+    background-color: #B31709;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px 150px;
+}
+
+/* ----- FOOTER -----*/
+
+footer {
+    padding: 20px;
+}
+
+footer > div > nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer > p {
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+/* --------------- CLASSES ---------------*/
+
+/* ----- BOUTONS -----*/
+
+.btn {
+    background-color: #C4C4C4;
+    margin: 0 10px;
+}
+
+.btn-info {
+    background-color: #272626;
+    margin: 20px 20px;
+}
+
+.btn:hover {
+    color: antiquewhite;
+}
+
+/** ----- BACKGROUND ----- **/
+
+.bg-noir {
+    background-color: #272626;
+    padding: 10px;
+    align-items: center;
+}
+
+.bg-beige {
+    background-color: #c4c4c4;
+    padding: 10px;
+    color: black;
+    align-items: center;
+}
+
+.bg-rouge {
+    background-color: #B31709;
+    color: white;
+}
+
+/** ----- AUTRES ----- **/
+
+.center {
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    background: #272626;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 0 !important;
+}
+
+.pres {
+    background-color: #272626;
+    text-align: center;
+    padding: 10px;
+}
+
+.video {
+    background-color: #B31709;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px !important;
+}
+
+/* ----- BLOCS PARTIE 3 ----- */
+
+.bloc {
+    padding: 10px;
+    align-items: center;
+}
+
+.bloc2 {
+    padding: 20px 40px;
+}
+
+/* ----- MENU BURGER ----- */
+
+.burger {
+    background-color: #272626;
+    border-color: white;
+}
+
+ul > li {
+    padding: 20px;
+}
+
+.blanc {
+    color: white;
+}
+
+button > div > div > h2 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* ----- CARDS ----- */
+
+.card {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.card-text {
+    color: white;
+}
+
+.cart-text:hover {
+    text-decoration: none;
+}
+
+.txt-noir {
+    color: black;
+}

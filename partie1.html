@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Utilisation de tout l'espace disponible pour les mobiles, sans zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <title>Web Analytics - Partie 1</title>
+
+    <!-- déclaration du fichier CSS de Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-lg-12">
+                    <button class="navbar-toggler col-1 order-1 order-kg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <a class="nav-link navbar-toggler-icon" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu burger bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item blanc" href="index.html">Accueil</a></li>
+                            <li><a class="dropdown-item blanc" href="partie1.html">Manipulation de vos idées</a></li>
+                            <li><a class="dropdown-item blanc" href="partie2.html">L'influence des algorithmes</a></li>
+                            <li><a class="dropdown-item blanc" href="partie3.html">Réseaux sociaux et Politique</a></li>
+                            <li><a class="dropdown-item blanc" href="informations.html">Informations</a></li>
+                        </ul>
+                    </button>
+                    <a href="index.html" class="order-2 order-lg-1 offset-lg-0">
+                        <img src="images/logo_blanc.png" alt="Logo Web Analytics" title="Logo Web Analytics" width="100" height="100" />
+                    </a>
+                    <div class="order-4 offset-1"></div>
+                    <div class="collapse navbar-collapse offset-2 order-3 order-lg-2" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item col-lg-3">
+                                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown col-lg-3">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Articles
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="partie1.html">Manipulation de vos idées</a></li>
+                                    <li><a class="dropdown-item" href="partie2.html">L'influence des algorithmes</a></li>
+                                    <li><a class="dropdown-item" href="partie3.html">Réseaux sociaux et Politique</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item col-3">
+                                <a class="nav-link" href="informations.html">Informations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main>
+
+            <div class="row">
+                <article class="col-12">
+                    <h2>Par quels facteurs nos idées sont-elles influencées sur les réseaux sociaux ?</h2>
+                </article>
+            </div>
+
+            <div class="row bg-noir">
+                <div id="carouselExampleSlidesOnly" class="carousel slide col-12 col-xl-6 offset-xl-3" data-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <a href="partie2.html">
+                                <img class="d-block w-100" src="images/carrous-influ.jpg" alt="Redirection vers l'article 'L'influence des algorithmes'">
+                                <div class="carousel-caption d-none d-block">
+                                    <h3>L'influence des algorithmes</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="partie3.html">
+                                <img class="d-block w-100" src="images/carrous-politique.jpg" alt="Redirection vers l'article 'Réseaux sociaux et Politique'">
+                                <div class="carousel-caption d-none d-block">
+                                    <h3>Réseaux sociaux et Politique</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordeon" id="accordion">
+                <div class="card">
+                    <div class="top" id="headingOne">
+                        <h2 class="bg-rouge">
+                            <button class="btn bg-rouge" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Nos idées sont-elles influencées par les réseaux sociaux ?</h2>
+                                    </div>
+                                </div>
+
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="row bg-noir">
+                            <img src="images/icon-influ-sond.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0">
+                            <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                                D’après un sondage réalisé par nos soins sur Instagram, un pannel de 132 personnes a répondu à la question suivante : “Les réseaux sociaux influencent-ils vos idées/pensées sur certains sujets ?
+                                <br>
+                                81% des gens, soit 107 personnes ont répondu “oui” et 19% soit 25 personnes ont répondu “non”.
+                                <br>
+                                Nous avons donc eu une idée globale mais à petite échelle de l’influence des réseaux sociaux.
+                            </p>
+                        </div>
+                        <div class="row bg-beige">
+                            <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 order-2 order-sm-2 order-md-1 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                                Nous avons donc cherché d’autres sondages plus conséquents.
+                                Nous avons trouvé un sondage plus global sur les réseaux sociaux réalisé par SurveyMonkey, qui abordait aussi la question de l’influence des réseaux sociaux sur notre façon de pensée. Sur 2764 personnes ayant participé au sondage, c’est 90% des gens qui pensent que les réseaux sociaux ont une influence quelconque sur eux et 10 % qui pensent le contraire.
+                                Nous savons donc que les idées et pensées d’une grande partie des personnes fréquentant les réseaux sociaux sont influencés par ceux-ci.
+                            </p>
+                            <img src="images/icon-survey_monkey.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0 order-1 order-sm-1 order-md-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="headingTwo">
+                <h2 class="mb-0 bg-rouge">
+                    <button class="btn bg-rouge collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Les différents mecanismes des réseaux sociaux.</h2>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="row bg-noir">
+                    <img src="images/icon-popularité.jpg" height="250" width="250" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0">
+                    <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                        Les réseaux sociaux influent sur nos idées en fonction de certains facteurs, notamment la popularité qui montre la crédibilité des idées, d’un influenceur par exemple. On peut parler ici d’une question de pouvoir et de supériorité. Un individu est influencé par un autre qu’il estime comme étant important dans un peuple (Influenceurs, mais aussi sportif ou autre, c’est l’idée d’idolâtrer quelqu’un).
+                    </p>
+                </div>
+                <div class="row bg-beige">
+                    <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 order-2 order-sm-2 order-md-1 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                        Les algorithmes eux aussi ont un rôle prépondérant sur nos idées, ce sont eux qui vont nous faire parvenir tels ou tels publications mais cela fonctionne aussi pour les publicités. Beaucoup de personnes se voient alors influencées par ce qui est mis à leur disposition sur les réseaux sociaux, c’est le contenu visible et non le contenu qui pourrait montrer à l’utilisateur deux idées opposés pour le faire réfléchir. Les réseaux sociaux ne donnent aux utilisateurs que ce qu’ils demandent pour l’intéresser toujours plus, mais faire réfléchir quelqu’un ne serait-il pas une meilleure idée ? Malheureusement non, les réseaux sociaux privilégient d’abord un aspect de détente et c’est à nous d’aller chercher les informations si nous les souhaitons.
+                    </p>
+                    <img src="images/icon-algorithmes.jpg" height="250" width="250" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0 order-1 order-sm-1 order-md-2">
+                </div>
+                <div class="row bg-noir">
+                    <img src="images/icon-vente.jpg" height="250" width="250" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0">
+                    <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                        Un autre facteur employé par les réseaux sociaux, qui lui, ne fais pas varier nos idées mais est d’une importance capitale quant à leur existence, c’est tout simplement la revente de données. Les données sont vendues à différents acheteurs, notamment pour proposer aux utilisateurs des publicités qui pourraient les intéresser. Mais si ces données tombent dans de mauvaises mains, toutes les idées des personnes touchées peuvent être dévoilé au grand jour, montrer les publications aimées par la personne, commentaires et messages privés. La sécurisation des données est donc très importante pour permettre à chacun d’avoir son propre avis.
+                    </p>
+                </div>
+                <div class="row bg-beige">
+                    <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 order-2 order-sm-2 order-md-1 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                        Toujours dans le même thème des publicités, elles-ont un prix, plus une entreprise paye chère et plus sa publicité va être mise en avant. Vous allez donc bien plus être influencé et vous tourner vers une marque que vous semblez connaître car vous l’avez remarqué plutôt qu’une petite entreprise ne faisant pas cette promotion. Nos idées sont donc aussi influencées d’un point de vue économique.
+                    </p>
+                    <img src="images/icon-publicite.jpg" height="250" width="250" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0 order-1 order-sm-1 order-md-2">
+                </div>
+
+            </div>
+
+        </main>
+
+        <div class="row">
+            <footer class="col-lg-12">
+                <div class="row">
+                    <nav class="col-lg-12">
+                        <a href="mailto:erwann.gauthier@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Erwann<br>GAUTHIER</a>
+                        <a href="mailto:leo.gilbert.1@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Léo<br>GILBERT</a>
+                        <a href="mailto:etienne.lemee@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Etienne<br>LE MEE</a>
+                        <a href="mailto:yannis.ligot@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Yannis<br>LIGOT</a>
+                    </nav>
+                </div>
+                <p><a href="https://iut-lannion.univ-rennes1.fr/" target="_blank">IUT Lannion</a> - Année universitaire 2020-2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

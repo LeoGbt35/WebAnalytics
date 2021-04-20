@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Utilisation de tout l'espace disponible pour les mobiles, sans zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <title>Web Analytics - Partie 2</title>
+
+    <!-- déclaration du fichier CSS de Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-lg-12">
+                    <button class="navbar-toggler col-1 order-1 order-kg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <a class="nav-link navbar-toggler-icon" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu burger bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item blanc" href="index.html">Accueil</a></li>
+                            <li><a class="dropdown-item blanc" href="partie1.html">Manipulation de vos idées</a></li>
+                            <li><a class="dropdown-item blanc" href="partie2.html">L'influence des algorithmes</a></li>
+                            <li><a class="dropdown-item blanc" href="partie3.html">Réseaux sociaux et Politique</a></li>
+                            <li><a class="dropdown-item blanc" href="informations.html">Informations</a></li>
+                        </ul>
+                    </button>
+                    <a href="index.html" class="order-2 order-lg-1 offset-lg-0">
+                        <img src="images/logo_blanc.png" alt="Logo Web Analytics" title="Logo Web Analytics" width="100" height="100" /></a>
+                    <div class="order-4 offset-1"></div>
+                    <div class="collapse navbar-collapse offset-2 order-3 order-lg-2" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item col-lg-3">
+                                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown col-lg-3">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Articles
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="partie1.html">Manipulation de vos idées</a></li>
+                                    <li><a class="dropdown-item" href="partie2.html">L'influence des algorithmes</a></li>
+                                    <li><a class="dropdown-item" href="partie3.html">Réseaux sociaux et Politique</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item col-3">
+                                <a class="nav-link" href="informations.html">Informations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <div class="row">
+                <article class="col-12">
+                    <h2>Comment les algorithmes des réseaux sociaux influencent-ils les utilisateurs ?</h2>
+                </article>
+            </div>
+
+            <div class="row bg-noir">
+                <div id="carouselExampleSlidesOnly" class="carousel slide col-12 col-xl-6 offset-xl-3" data-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <a href="partie1.html">
+                                <img class="d-block w-100" src="images/carrous-manip.jpg" alt="Redirection vers l'article 'Manipulation de vos idées'">
+                                <div class="carousel-caption d-none d-block">
+                                    <h3 class="txt-noir">Manipulation de vos idées</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <a href="partie3.html">
+                                <img class="d-block w-100" src="images/carrous-politique.jpg" alt="Redirection vers l'article 'Réseaux sociaux et Politique'">
+                                <div class="carousel-caption d-none d-block">
+                                    <h3>Réseaux sociaux et Politique</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordeon" id="accordion">
+                <div class="card">
+                    <div class="top" id="headingOne">
+                        <h2 class="mb-0 bg-rouge">
+                            <button class="btn bg-rouge" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Collecte de nos données et informations d'utilisateur</h2>
+                                    </div>
+                                </div>
+
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="row bg-noir">
+                            <img src="images/icon-fonctio_leo.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0">
+                            <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                                Nous allons voir comment marche l'essence meme du fonctionnement des réseaux sociaux. Le fonctionnement de ceux-ci nous parrait anodin mais il est en réalité extrêmement complexe et calculer, avec des equipes d'ingenieurs derriere ceux-ci.
+                                <br />
+                                <br />
+                                C'est sous 3 points que nous verrons leur fonctionnement :
+                                <br>
+                                • Collecte de donnés : L'objectif principale des réseaux sociaux est de collecter massivement les données des utilisateurs.
+                                <br>
+                                • Schéma de probabilité d' "attention" : grâce aux millions de données collectées, les algorithmes peuvent calculer et trier celles-ci grâce à de "super-ordinateurs" .
+                                <br>
+                                • Le profil-type : grâce aux schémas créés, les algorithmes peuvent dégager plusieurs types de profil, pouvant ainsi faciliter le ciblage des personnes en fonction de leurs préférences.
+                            </p>
+                        </div>
+                        <div class="row bg-beige">
+                            <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 order-2 order-sm-2 order-md-1 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                                Ce cercle permet donc d'avoir une précision incomparable et les grosses entreprises dans ce domaine s'offrent une guerre sans merci pour pouvoir prendre le contrôle sur un maximum de donnés et pouvoir offrir des publicités pertinantes qui s'adressent aux bons utilisateurs.
+                                <br />
+                                <br />
+                                Grâce à ce cercle vertueux (pour la collecte de donnés de plus en plus éfficace), on voit apparaitre l'émergence d'un nouveau type de business : vente de données.
+                                <br />
+                                En effet, le modèle économique capitaliste force les entreprises à adopté une attitude plus en plus tentaculaire et optent pour une emprise totale sur la surveillance de masse.
+                            </p>
+                            <img src="images/icon-money_leo.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0 order-1 order-sm-1 order-md-2">
+                        </div>
+                    </div>
+                </div>
+                <div id="headingTwo">
+                    <h2 class="mb-0 bg-rouge">
+                        <button class="btn bg-rouge collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Construction et utilisation d'outils puissants</h2>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="row bg-noir">
+                        <img src="images/icon-reseaux-sociaux.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0">
+                        <p class="txt col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                            Le but des réseaux sociaux est de faire de l’argent.
+                            <br>
+                            <br>
+                            Pour cela ils ont 3 objectifs majeurs :
+                            <br>
+                            • La croissance : ils vous incitent à inviter des amis.
+                            <br>
+                            • L'intérêt : ils vous affichent le contenu que vous aimez pour vous faire rester le plus longtemps possible sur l'application.
+                            <br>
+                            • La pub : ils vous affichent des pubs "personnalisées" (adaptées en fonction du contenu que vous regardez) entre X contenu afin de faire un maximum de profit.
+                            <br>
+                            <br>
+                            Tout cela est rendu possible grâce à des algorithmes très puissant permettant la collecte de vos donées personnelles.
+                        </p>
+                    </div>
+                    <div class="row bg-beige">
+                        <p class="txt col-8 col-sm-8 col-md-6 col-lg-7 col-xl-8 offset-2 order-2 order-sm-2 order-md-1 offset-2 offset-sm-2 offset-md-1 offset-lg-1 center">
+                            A l'aide de ces collectes de données certaines sociétés ont trouvé le moyen de manipuler une certaine partie de la population.
+                            <br>
+                            C’est le cas de Cambridge Analytica (une société d’analyse de données) qui grâce aux données récoltées sur des utilisateurs Facebook influait peu à peu le comportement des gens en leurs proposant du contenu publicitaire qui allait dans l’intérêt de l'entreprise américaine.
+                            <br>
+                            <br>
+                            Par exemple, en 2016, lors de sa campagne présidentielle Donald Trump a fait appel à cette société afin que son parti soit massivement présenté sur les réseaux sociaux et notamment au près des personnes jeunes et/ou qui n'avaient jamais exprimés leurs opinions politiques sur les réseaux sociaux.
+                            <br>
+                            <br>
+                            Le fait d'influer la manière de pensée de la population est répréensible par la loi. C'est pour cela que la société a été condamnée à fermer en 2018 suite au scandale de manipulation de la population grâce aux données récoltées sur elle.
+                        </p>
+                        <img src="images/icon-cambridge-manip.png" class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-3 offset-sm-3 offset-md-0 order-1 order-sm-1 order-md-2">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="row">
+            <footer class="col-lg-12">
+                <div class="row">
+                    <nav class="col-lg-12">
+                        <a href="mailto:erwann.gauthier@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Erwann<br>GAUTHIER</a>
+                        <a href="mailto:leo.gilbert.1@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Léo<br>GILBERT</a>
+                        <a href="mailto:etienne.lemee@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Etienne<br>LE MEE</a>
+                        <a href="mailto:yannis.ligot@etudiant.univ-rennes1.fr" class="col-md-2 col-xl-1 btn">Yannis<br>LIGOT</a>
+                    </nav>
+                </div>
+                <p><a href="https://iut-lannion.univ-rennes1.fr/" target="_blank">IUT Lannion</a> - Année universitaire 2020-2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
